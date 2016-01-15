@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# Vim
+!.vimrc
+!.vim/autoload
