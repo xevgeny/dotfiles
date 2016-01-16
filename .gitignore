@@ -1,6 +1,15 @@
-# Ignore everything
-*
+# Ignore everything in the root
+/*
+
+!.gitignore
 
 # Vim
 !.vimrc
-!.vim/autoload
+!.vim/autoload/
+
+# Emacs
+*.el~
+!.emacs
+!.emacs.d
+.emacs.d/*
+!.emacs.d/custom/
