@@ -12,6 +12,8 @@
 (defvar required-packages
   '(
     neotree
+	darcula-theme
+	scala-mode2 
    ) "A list of packages to ensure are installed at launch.")
 
 ; Method to check if all packages are installed
@@ -37,5 +39,4 @@
 (add-to-list 'load-path "~/.emacs.d/helm")
 (require 'helm-config)
 
-; Neotree
-;(require 'neotree)
+(require 'darcula-theme)
