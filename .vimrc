@@ -8,3 +8,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 
 call plug#end()
+
+" share clipboard with osx
+set clipboard=unnamedplus
