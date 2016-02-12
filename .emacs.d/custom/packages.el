@@ -13,7 +13,11 @@
   '(
     neotree
 	darcula-theme
-	scala-mode2 
+	scala-mode2
+	helm
+	helm-ag
+	projectile
+	helm-projectile
    ) "A list of packages to ensure are installed at launch.")
 
 ; Method to check if all packages are installed
