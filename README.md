@@ -4,6 +4,7 @@
 Packages:
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
+- ...
 
 ## Emacs
 
@@ -14,5 +15,16 @@ Basic setup:
 Packages:
 - [helm](https://github.com/emacs-helm/helm) 
 - [neotree](http://www.emacswiki.org/emacs/NeoTree)
+- [helm-ag](https://github.com/syohex/emacs-helm-ag)
+- [helm-projectile](https://github.com/bbatsov/helm-projectile)
+- ...
 
-NOTE: install helm directly from git to avoid wierd errors
+NOTE: 
+	Install helm directly from git to avoid wierd errors
+	Also install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
+
+## Tmux
+Basic tmux configuration
+
+## Zsh
+Zsh/oh-my-zsh configs
