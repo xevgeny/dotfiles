@@ -1,5 +1,4 @@
 (require 'cl)
-
 (require 'package)
 
 ; Melpa and marmalade repositories
@@ -41,3 +40,4 @@
 ; Helm and async
 (add-to-list 'load-path "~/.emacs.d/async")
 (add-to-list 'load-path "~/.emacs.d/helm")
+
