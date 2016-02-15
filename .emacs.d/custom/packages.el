@@ -41,6 +41,3 @@
 ; Helm and async
 (add-to-list 'load-path "~/.emacs.d/async")
 (add-to-list 'load-path "~/.emacs.d/helm")
-(require 'helm-config)
-
-(require 'darcula-theme)
