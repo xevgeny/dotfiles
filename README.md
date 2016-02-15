@@ -8,7 +8,7 @@ Packages:
 
 ## Emacs
 
-Basic setup:
+First steps:
 - http://y.tsutsumi.io/emacs-from-scratch-part-1-extending-emacs-basics.html
 - http://y.tsutsumi.io/emacs-from-scratch-part-2-package-management.html
 
@@ -19,8 +19,8 @@ Packages:
 - [helm-projectile](https://github.com/bbatsov/helm-projectile)
 - ...
 
-Basic usage:
-- Open new project: change to directory, 'helm-projectile
+Usage:
+- Open new project: change directory, 'helm-projectile
 - Switch project: C-c s
 - Open file in project: C-c o
 - Find in files: C-c f
