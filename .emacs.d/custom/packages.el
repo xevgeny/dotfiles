@@ -10,13 +10,16 @@
 
 (defvar required-packages
   '(
-    neotree
+        neotree
 	darcula-theme
 	scala-mode2
 	helm
 	helm-ag
 	projectile
 	helm-projectile
+	paredit
+	clojure-mode
+	cider
    ) "A list of packages to ensure are installed at launch.")
 
 ; Method to check if all packages are installed
