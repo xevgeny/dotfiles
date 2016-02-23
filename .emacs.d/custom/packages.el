@@ -20,6 +20,7 @@
 	paredit
 	clojure-mode
 	cider
+	puppet-mode
    ) "A list of packages to ensure are installed at launch.")
 
 ; Method to check if all packages are installed
