@@ -20,15 +20,16 @@ Packages:
 - ...
 
 Usage:
+- Find file: C-x C-f  
 - Open new project: change directory, 'helm-projectile
 - Switch project: C-c s
-- Open file in project: C-c o
+- Find file in project: C-c o
 - Find in files: C-c f
 - Toggle neotree: F8 
 
 NOTE: 
-	Install helm directly from git to avoid wierd errors
-	Also install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
+    Install helm directly from git to avoid wierd errors
+    Also install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
 
 ## Tmux
 Basic tmux configuration
