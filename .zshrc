@@ -52,7 +52,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/eqw3rty/Projects/apache-maven-3.2.1/bin:/Applications/Android Studio.app/sdk/tools:/Applications/Android Studio.app/sdk/platform-tools:/Users/eqw3rty/Projects/activator"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/eqw3rty/Projects/apache-maven-3.2.1/bin:/Applications/Android Studio.app/sdk/tools:/Applications/Android Studio.app/sdk/platform-tools:/Users/eqw3rty/Projects/activator:/Users/eqw3rty/hadoop/bin"
 
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/"
