@@ -9,6 +9,7 @@
 
 # Emacs
 *.el~
+*~
 !.emacs
 !.emacs.d
 .emacs.d/*
