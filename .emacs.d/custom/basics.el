@@ -6,17 +6,6 @@
 ;; Run emacs maximazed
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;; Completion list window http://stackoverflow.com/questions/900372/in-emacs-how-do-i-change-the-minibuffer-completion-list-window
-(add-to-list 'special-display-buffer-names '("*Completions*" my-display-completions))
+;; Split on startup
+(split-window-right)
 
-(defun my-display-completions (buf)
-  "put the *completions* buffer in the right spot"
-  (let ((windows (delete (minibuffer-window) (window-list))))
-    (if (eq 1 (length windows))
-      (progn 
-	(select-window (car windows))
-	(split-window-vertically)))
-    (let ((target-window (window-at 0 (- (frame-height) 2)))
-	  (pop-up-windows t))
-      (set-window-buffer target-window buf)
-      target-window)))

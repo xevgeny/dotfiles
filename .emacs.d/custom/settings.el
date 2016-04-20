@@ -28,3 +28,6 @@
 (setq neo-smart-open t)
 ;; When running ‘projectile-switch-project’ ‘neotree’ will change root automatically
 ;; (setq projectile-switch-project-action 'neotree-projectile-action)
+
+;; Helm split window
+(setq helm-split-window-in-side-p t)

@@ -22,6 +22,7 @@
     cider
     puppet-mode
     dockerfile-mode
+    magit
    ) "A list of packages to ensure are installed at launch.")
 
 ;; Method to check if all packages are installed
