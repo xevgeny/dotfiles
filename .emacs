@@ -2,7 +2,7 @@
 (load "~/.emacs.d/custom/basics.el")
 
 ; Load packages
-(load "~/.emacs.d/custom/load-packages.el")
+(load "~/.emacs.d/custom/packages.el")
 
 ; Odered launch
 (add-hook 'after-init-hook '(lambda ()

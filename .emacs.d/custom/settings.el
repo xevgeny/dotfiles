@@ -17,10 +17,21 @@
 
 ;; Open file in project
 (global-set-key (kbd "C-c o") 'helm-projectile-find-file)
-;; Find in files
-(global-set-key (kbd "C-c f") 'helm-ag)
+;; Find in project files
+(global-set-key (kbd "C-c f") 'helm-do-ag-project-root)
 ;; Switch project
 (global-set-key (kbd "C-c s") 'helm-projectile-switch-project)
+;; Buffers list
+(global-set-key (kbd "C-c b") 'helm-buffers-list)
+
+;; Window
+(global-set-key (kbd "C-c w v") 'spit-window-horizontally)
+(global-set-key (kbd "C-c w h") 'spit-window-vertically)
+
+;; Git
+(global-set-key (kbd "C-c g r") 'vc-revert-buffer)
+(global-set-key (kbd "C-c g a") 'vc-annotate)
+(global-set-key (kbd "C-c g d") 'magit-diff)
 
 ;; Neotree
 (global-set-key [f8] 'neotree-toggle)

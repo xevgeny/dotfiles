@@ -8,4 +8,3 @@
 
 ;; Split on startup
 (split-window-right)
-
