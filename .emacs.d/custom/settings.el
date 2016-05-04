@@ -25,8 +25,8 @@
 (global-set-key (kbd "C-c b") 'helm-buffers-list)
 
 ;; Window
-(global-set-key (kbd "C-c w v") 'spit-window-horizontally)
-(global-set-key (kbd "C-c w h") 'spit-window-vertically)
+(global-set-key (kbd "C-c w v") 'split-window-horizontally)
+(global-set-key (kbd "C-c w h") 'split-window-vertically)
 
 ;; Git
 (global-set-key (kbd "C-c g r") 'vc-revert-buffer)
