@@ -15,14 +15,12 @@
 ;; Projectile
 (projectile-global-mode)
 
-;; Open file in project
+;; Helm
 (global-set-key (kbd "C-c o") 'helm-projectile-find-file)
-;; Find in project files
 (global-set-key (kbd "C-c f") 'helm-do-ag-project-root)
-;; Switch project
 (global-set-key (kbd "C-c s") 'helm-projectile-switch-project)
-;; Buffers list
 (global-set-key (kbd "C-c b") 'helm-buffers-list)
+(global-set-key (kbd "C-c r") 'helm-recentf)
 
 ;; Window
 (global-set-key (kbd "C-c w v") 'split-window-horizontally)
