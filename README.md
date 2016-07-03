@@ -4,7 +4,6 @@
 Packages:
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
-- ...
 
 ## Emacs
 
@@ -17,7 +16,6 @@ Packages:
 - [neotree](http://www.emacswiki.org/emacs/NeoTree)
 - [helm-ag](https://github.com/syohex/emacs-helm-ag)
 - [helm-projectile](https://github.com/bbatsov/helm-projectile)
-- ...
 
 Usage:
 - Find file: C-x C-f  
@@ -32,7 +30,11 @@ NOTE:
     Also install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
 
 ## Tmux
-Basic tmux configuration
+Plugins:
+```
+git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux-plugins/tmux-resurrect
+git clone https://github.com/tmux-plugins/tmux-continuum ~/.tmux-plugins/tmux-continuum
+```
 
 ## Zsh
 Zsh/oh-my-zsh configs
