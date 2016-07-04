@@ -5,8 +5,7 @@ syntax on                     " syntax highlighting
 syntax enable                 " syntac highlighting
 
 set title                     " show title in console title bar.
-"set cursorline                " highlights line
-"set cursorcolumn              " highlights column
+set cursorline                " highlights line
 set number                    " show line number
 
 set splitright                " always split to the right
@@ -23,12 +22,28 @@ set shiftwidth=2              " affects >>, <<, ==
 set softtabstop=2
 set backspace=2               " make backspace work like most other app
 
-" Plugins
-call plug#begin('~/.vim/plugged')
-
-Plug 'scrooloose/nerdtree'
-
-call plug#end()
+set laststatus=2              " force to show airline
 
 " Share clipboard with osx
 set clipboard=unnamed
+
+" Vim plug
+" Usage: 
+"   :PlugInstall 
+"   :PlugClean
+"
+" Plugins
+call plug#begin('~/.vim/plugged')
+
+" Look and feel
+Plug 'dracula/vim'
+Plug 'vim-airline/vim-airline'            " powerline statusline
+Plug 'vim-airline/vim-airline-themes'     " powerline statusline themes
+
+call plug#end()
+
+color dracula
+
+" Strait airline separators
+let g:airline_left_sep='' 
+let g:airline_right_sep=''
