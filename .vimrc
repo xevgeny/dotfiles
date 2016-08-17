@@ -28,7 +28,7 @@ set laststatus=2              " force to show airline
 set clipboard=unnamed
 
 " Vim plug
-" Usage: 
+" Usage 
 "   :PlugInstall 
 "   :PlugClean
 "
@@ -40,6 +40,12 @@ Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline'            " powerline statusline
 Plug 'vim-airline/vim-airline-themes'     " powerline statusline themes
 
+" Languages
+Plug 'derekwyatt/vim-scala'
+
+" Mix
+Plug 'scrooloose/nerdtree'
+
 call plug#end()
 
 color dracula
@@ -47,3 +53,5 @@ color dracula
 " Strait airline separators
 let g:airline_left_sep='' 
 let g:airline_right_sep=''
+
+map <C-e> :NERDTreeToggle<CR>

@@ -57,6 +57,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/eqw3rty/Project
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/"
 
+# Spark
+export SPARK_HOME="/Users/eqw3rty/Programs/spark-1.6.0-bin-hadoop2.6"
+
 # Go
 export GOPATH=$HOME/golang
 export GOROOT=/usr/local/opt/go/libexec
