@@ -19,6 +19,12 @@
 ;; Emacs
 (global-set-key (kbd "C-x f") 'find-file) ;; find file
 
+;; Windmoves
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
+
 ;; Helm
 (global-set-key (kbd "C-c o") 'helm-projectile-find-file) ;; find file in project
 (global-set-key (kbd "C-c f") 'helm-do-ag-project-root)   ;; find in files
