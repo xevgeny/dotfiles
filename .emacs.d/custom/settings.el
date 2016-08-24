@@ -1,4 +1,3 @@
-(require 'darcula-theme)
 (require 'helm-config)
 (require 'projectile)
 (require 'helm-projectile)
@@ -13,6 +12,9 @@
 (projectile-global-mode) ;; enable projectile mode
 (ido-mode t)             ;; interactively-do mode
 (show-paren-mode)        ;; highlight parenthesis
+
+;; Theme
+(load-theme 'dracula t)
 
 ;; Emacs
 (global-set-key (kbd "C-x f") 'find-file) ;; find file

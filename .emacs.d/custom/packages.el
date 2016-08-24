@@ -3,7 +3,7 @@
 
 ;; Melpa and marmalade repositories
 (add-to-list 'package-archives
-  '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  '("melpa" . "https://melpa.org/packages/") t)
 (add-to-list 'package-archives
   '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
@@ -11,7 +11,6 @@
 (defvar required-packages
   '(
     neotree
-    darcula-theme
     scala-mode2
     helm
     helm-ag
@@ -23,6 +22,9 @@
     puppet-mode
     dockerfile-mode
     magit
+    ansible
+    yaml-mode
+    dracula-theme
    ) "A list of packages to ensure are installed at launch.")
 
 ;; Method to check if all packages are installed
@@ -46,4 +48,3 @@
 ;; Helm and async
 (add-to-list 'load-path "~/.emacs.d/async")
 (add-to-list 'load-path "~/.emacs.d/helm")
-
