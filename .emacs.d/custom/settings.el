@@ -1,17 +1,15 @@
 (require 'helm-config)
 (require 'projectile)
 (require 'helm-projectile)
-(require 'neotree)
-(require 'ido)
 
 ;; Helm settings
 (helm-mode 1)
 (global-set-key (kbd "M-x") 'helm-M-x)
-(setq helm-split-window-in-side-p t) ;; helm split window
+(setq helm-split-window-in-side-p t) ; helm split window
 
-(projectile-global-mode) ;; enable projectile mode
-(ido-mode t)             ;; interactively-do mode
-(show-paren-mode)        ;; highlight parenthesis
+(projectile-global-mode) ; enable projectile mode
+(ido-mode t)             ; interactively-do mode
+(show-paren-mode)        ; highlight parenthesis
 
 ;; Autocomplete
 (ac-config-default)
@@ -19,13 +17,13 @@
 (dolist (m '(dockerfile-mode 
 	     markdown-mode))
   (add-to-list 'ac-modes m))
-(global-set-key (kbd "C-c a")  'auto-complete) ;; trigger autocomplete
+(global-set-key (kbd "C-c a")  'auto-complete) ; trigger autocomplete
 
 ;; Theme
 (load-theme 'dracula t)
 
 ;; Emacs
-(global-set-key (kbd "C-x f") 'find-file) ;; find file
+(global-set-key (kbd "C-x f") 'find-file) ; find file
 
 ;; Windmoves
 (global-set-key (kbd "C-c <left>")  'windmove-left)
@@ -34,8 +32,8 @@
 (global-set-key (kbd "C-c <down>")  'windmove-down)
 
 ;; Helm
-(global-set-key (kbd "C-c o") 'helm-projectile-find-file) ;; find file in project
-(global-set-key (kbd "C-c f") 'helm-do-ag-project-root)   ;; find in files
+(global-set-key (kbd "C-c o") 'helm-projectile-find-file) ; find file in project
+(global-set-key (kbd "C-c f") 'helm-do-ag-project-root)   ; find in files
 (global-set-key (kbd "C-c s") 'helm-projectile-switch-project)
 (global-set-key (kbd "C-c b") 'helm-buffers-list)
 (global-set-key (kbd "C-c r") 'helm-recentf)

@@ -1,10 +1,10 @@
-; Load basic settings first
+;; Load basic settings first
 (load "~/.emacs.d/custom/basics.el")
 
-; Load packages
+;; Load packages
 (load "~/.emacs.d/custom/packages.el")
 
-; Odered launch
+;; Odered launch
 (add-hook 'after-init-hook '(lambda ()
   (load "~/.emacs.d/custom/settings.el")
 ))

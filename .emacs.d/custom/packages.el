@@ -9,8 +9,7 @@
 (package-initialize)
 
 (defvar required-packages
-  '(
-    neotree
+  '(neotree
     scala-mode2
     helm
     helm-ag
@@ -26,8 +25,7 @@
     yaml-mode
     dracula-theme
     markdown-mode
-    auto-complete
-   ) "A list of packages to ensure are installed at launch.")
+    auto-complete) "A list of packages to ensure are installed at launch.")
 
 ;; Method to check if all packages are installed
 (defun packages-installed-p ()
