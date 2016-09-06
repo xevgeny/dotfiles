@@ -13,6 +13,14 @@
 (ido-mode t)             ;; interactively-do mode
 (show-paren-mode)        ;; highlight parenthesis
 
+;; Autocomplete
+(ac-config-default)
+(global-auto-complete-mode t)
+(dolist (m '(dockerfile-mode 
+	     markdown-mode))
+  (add-to-list 'ac-modes m))
+(global-set-key (kbd "C-c a")  'auto-complete) ;; trigger autocomplete
+
 ;; Theme
 (load-theme 'dracula t)
 
