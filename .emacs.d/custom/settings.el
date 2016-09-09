@@ -25,6 +25,9 @@
 ;; Emacs
 (global-set-key (kbd "C-x f") 'find-file) ; find file
 
+(global-set-key (kbd "C-c i r") 'indent-region)
+(global-set-key (kbd "C-c i s") 'indent-sexp)
+
 ;; Windmoves
 (global-set-key (kbd "C-c <left>")  'windmove-left)
 (global-set-key (kbd "C-c <right>") 'windmove-right)
@@ -63,15 +66,10 @@
 (global-set-key (kbd "C-c w [") 'paredit-wrap-square)
 (global-set-key (kbd "C-c w {") 'paredit-wrap-curly)
 
-(global-set-key (kbd "C-c (") 'paredit-open-round)
-(global-set-key (kbd "C-c <") 'paredit-open-angled)
-(global-set-key (kbd "C-c {") 'paredit-open-square)
-(global-set-key (kbd "C-c {") 'paredit-open-curly)
+(global-set-key (kbd "<M-right>") 'paredit-forward)
+(global-set-key (kbd "<M-left>") 'paredit-backward)
 
-(global-set-key (kbd "C-c )") 'paredit-close-round)
-(global-set-key (kbd "C-c >") 'paredit-close-angled)
-(global-set-key (kbd "C-c ]") 'paredit-close-square)
-(global-set-key (kbd "C-c }") 'paredit-close-curly)
+(global-set-key (kbd "C-c p u") 'paredit-splice-sexp) ; unwrap sexp
 
 ;; Neotree
 (global-set-key (kbd "C-c e") 'neotree-toggle)

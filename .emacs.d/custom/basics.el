@@ -3,8 +3,7 @@
 (when (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (when (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
-;; Run emacs maximazed
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(add-to-list 'default-frame-alist '(fullscreen . maximized)) ; run emacs maximazed
 
-;; Split on startup
-(split-window-right)
+(split-window-right) ; split on startup
+(setq visible-bell 1) ; no more annoying beeps, show visible sign
