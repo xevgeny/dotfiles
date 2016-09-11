@@ -7,3 +7,5 @@
 
 (split-window-right) ; split on startup
 (setq visible-bell 1) ; no more annoying beeps, show visible sign
+
+(setq auto-save-default nil) ; disable auto-save

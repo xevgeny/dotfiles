@@ -69,7 +69,7 @@
 (global-set-key (kbd "<M-right>") 'paredit-forward)
 (global-set-key (kbd "<M-left>") 'paredit-backward)
 
-(global-set-key (kbd "C-c p u") 'paredit-splice-sexp) ; unwrap sexp
+(global-set-key (kbd "M-s") 'paredit-splice-sexp) ; unwrap sexp
 
 ;; Neotree
 (global-set-key (kbd "C-c e") 'neotree-toggle)
