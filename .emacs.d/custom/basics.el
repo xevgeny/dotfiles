@@ -9,3 +9,6 @@
 (setq visible-bell 1) ; no more annoying beeps, show visible sign
 
 (setq auto-save-default nil) ; disable auto-save
+
+(setq make-backup-files nil) ; no backups
+(setq create-lockfiles nil) ; no file locks
