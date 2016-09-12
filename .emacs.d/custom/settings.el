@@ -82,4 +82,4 @@
 	    (setq-default)
 	    (setq tab-width 4)
 	    (setq standard-indent 4)
-	    (setq indent-tabs-mode nil)))
+	    (setq indent-tabs-mode t)))
