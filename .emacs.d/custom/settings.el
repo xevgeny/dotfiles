@@ -14,7 +14,7 @@
 ;; Autocomplete
 (ac-config-default)
 (global-auto-complete-mode t)
-(dolist (m '(dockerfile-mode 
+(dolist (m '(dockerfile-mode
 	     markdown-mode))
   (add-to-list 'ac-modes m))
 (global-set-key (kbd "C-c a")  'auto-complete) ; trigger autocomplete
@@ -75,3 +75,11 @@
 (global-set-key (kbd "C-c e") 'neotree-toggle)
 ;; Every time when the neotree window is opened, let it find current file and jump to node.
 (setq neo-smart-open t)
+
+;; Go indent
+(add-hook 'go-mode-hook
+	  (lambda ()
+	    (setq-default)
+	    (setq tab-width 4)
+	    (setq standard-indent 4)
+	    (setq indent-tabs-mode nil)))

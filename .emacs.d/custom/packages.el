@@ -25,6 +25,7 @@
     yaml-mode
     dracula-theme
     markdown-mode
+    go-mode
     auto-complete) "A list of packages to ensure are installed at launch.")
 
 ;; Method to check if all packages are installed
