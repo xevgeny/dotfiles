@@ -6,6 +6,3 @@
 	excludesfile = /Users/eqw3rty/.gitignore_global
 [push]
 	default = current
-[branch]
-	autosetupmerge = always
-	autosetuprebase = always
