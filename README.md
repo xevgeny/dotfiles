@@ -1,33 +1,52 @@
 # dotfiles
 
-## Vim
-Packages:
-- [vim-plug](https://github.com/junegunn/vim-plug)
-- [nerdtree](https://github.com/scrooloose/nerdtree)
-
 ## Emacs
 
-First steps:
-- http://y.tsutsumi.io/emacs-from-scratch-part-1-extending-emacs-basics.html
-- http://y.tsutsumi.io/emacs-from-scratch-part-2-package-management.html
+Links:
+- [Basic emacs](http://www.braveclojure.com/basic-emacs/)
+- [Extending emacs](http://y.tsutsumi.io/emacs-from-scratch-part-1-extending-emacs-basics.html)
+- [Package managment](http://y.tsutsumi.io/emacs-from-scratch-part-2-package-management.html)
 
 Packages:
 - [helm](https://github.com/emacs-helm/helm) 
-- [neotree](http://www.emacswiki.org/emacs/NeoTree)
 - [helm-ag](https://github.com/syohex/emacs-helm-ag)
 - [helm-projectile](https://github.com/bbatsov/helm-projectile)
+- [paredit]()
+- ...
 
-Usage:
-- Find file: C-x C-f  
-- Open new project: change directory, 'helm-projectile
-- Switch project: C-c s
-- Find file in project: C-c o
-- Find in files: C-c f
-- Toggle neotree: F8 
+Notes:
+- Install helm directly from git to avoid wierd errors
+- Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
 
-NOTE: 
-    Install helm directly from git to avoid wierd errors
-    Also install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
+Basic kbds:
+Kbd | Command
+--- | ---
+<M-x> | Helm menu
+<C-c s> | Procfile switch project
+<C-c o> | Projectile open file
+<C-c b> | Buffers list
+<C-c r> | Recent files
+<C-c f> | Full text search in project
+<C-s> | Search in file
+
+#### Hacks:
+
+Format XML:
+`
+M-x nxml-mode
+M-x replace-regexp RET > *< RET >C-q C-j< RET 
+C-M-\ to indent
+`
+
+## Vim
+
+Links:
+- [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+- [Cheat Sheet](http://michael.peopleofhonoronly.com/vim/)
+
+Packages:
+- [vim-plug](https://github.com/junegunn/vim-plug)
+- ...
 
 ## Tmux
 Plugins:
@@ -35,6 +54,5 @@ Plugins:
 git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux-plugins/tmux-resurrect
 git clone https://github.com/tmux-plugins/tmux-continuum ~/.tmux-plugins/tmux-continuum
 ```
-
 ## Zsh
 Zsh/oh-my-zsh configs
