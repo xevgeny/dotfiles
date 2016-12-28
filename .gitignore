@@ -15,5 +15,8 @@
 .emacs.d/*
 !.emacs.d/custom/
 
-# Folder
+# Tig
+!.tigrc
+
+# Folders
 !scripts
