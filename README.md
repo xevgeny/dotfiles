@@ -19,24 +19,25 @@ Notes:
 - Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
 
 Basic kbds:
+
 Kbd | Command
 --- | ---
-<M-x> | Helm menu
-<C-c s> | Procfile switch project
-<C-c o> | Projectile open file
-<C-c b> | Buffers list
-<C-c r> | Recent files
-<C-c f> | Full text search in project
-<C-s> | Search in file
+`<M-x>` | Helm menu
+`<C-c s>` | Procfile switch project
+`<C-c o>` | Projectile open file
+`<C-c b>` | Buffers list
+`<C-c r>` | Recent files
+`<C-c f>` | Full text search in project
+`<C-s>` | Search in file
 
 #### Hacks:
 
 Format XML:
-`
+```
 M-x nxml-mode
 M-x replace-regexp RET > *< RET >C-q C-j< RET 
 C-M-\ to indent
-`
+```
 
 ## Vim
 
