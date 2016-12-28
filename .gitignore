@@ -2,6 +2,15 @@
 /*
 
 !.gitignore
+!README
+
+# Bash
+!.bash_profil
+
+# Zsh
+!.zshenv
+!.zshrc
+!.oh-my-zsh-custom
 
 # Vim
 !.vimrc
@@ -18,5 +27,12 @@
 # Tig
 !.tigrc
 
+# Tmux
+!.tmux.conf
+
+# Homebrew dump
+!.homebrew
+
 # Folders
-!scripts
+!.scripts
+!.wiki
