@@ -30,6 +30,8 @@ Kbd | Command
 `<C-c f>` | Full text search in project
 `<C-s>` | Search in file
 
+ℹ️ All custom kdbs can be found [here](../master/.emacs.d/custom/settings.el)
+
 #### Hacks:
 
 Format XML:
