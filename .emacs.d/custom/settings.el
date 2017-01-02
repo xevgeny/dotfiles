@@ -28,6 +28,10 @@
 (global-set-key (kbd "C-c i r") 'indent-region)
 (global-set-key (kbd "C-c i s") 'indent-sexp)
 
+;; Mode
+(global-set-key (kbd "C-c m p") 'paredit-mode)
+(global-set-key (kbd "C-c m w") 'whitespace-mode)
+
 ;; Windmoves
 (global-set-key (kbd "C-c <left>")  'windmove-left)
 (global-set-key (kbd "C-c <right>") 'windmove-right)
