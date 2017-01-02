@@ -41,6 +41,8 @@ M-x replace-regexp RET > *< RET >C-q C-j< RET
 C-M-\ to indent
 ```
 
+Apply settings immediately from buffer: `M-x eval-buffer`
+
 ## Vim
 
 Links:
