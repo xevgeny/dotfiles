@@ -83,3 +83,7 @@
 	    (setq tab-width 4)
 	    (setq standard-indent 4)
 	    (setq indent-tabs-mode t)))
+
+;; Puppet indent
+(setq puppet-indent-level 4)
+(setq puppet-include-indent 4)
