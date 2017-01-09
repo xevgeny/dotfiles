@@ -10,7 +10,7 @@ Pack folder: `gzip -r foldername`
 Unpack: `gunzip filename.gz`
 Unpack first 100 lines: `gunzip -cd filename | head -n 100 > output`
 
-## [zip]()
+## zip
 Pack folder: `zip -r archive.zip folder`
 Unpack: `unzip archive.zip -d output`
 List files: `unzip -l archive.zip`
