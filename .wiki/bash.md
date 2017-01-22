@@ -17,3 +17,7 @@ openssl can do this trick for you
 ```
 echo -n 'test' | openssl base64
 ```
+## count lines
+```
+wc -l file
+```
