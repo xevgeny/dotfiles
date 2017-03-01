@@ -44,6 +44,4 @@ Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
-color dracula
-
 map <C-e> :NERDTreeToggle<CR>
