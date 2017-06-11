@@ -1,6 +1,6 @@
 # dotfiles
 
-## Emacs
+### Emacs
 
 Links:
 - [Sexy](http://emacs.sexy/)
@@ -19,14 +19,14 @@ Notes:
 - Install helm directly from git to avoid wierd errors
 - Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
 
-## Vim
+### Vim
 
 Links:
 - [Sexy](https://www.vim.sexy/)
 - [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 - [Cheat Sheet](http://michael.peopleofhonoronly.com/vim/)
 
-## And much more:
+### And much more:
 
 - Git
 - Bash
