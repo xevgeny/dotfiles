@@ -1,8 +1,0 @@
-[user]
-	name = Eugene Tskhovrebov
-	email = eqw3rty@gmail.com
-[core]
-	editor = vim
-	excludesfile = /Users/eqw3rty/.gitignore_global
-[push]
-	default = current
