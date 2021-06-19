@@ -1,34 +1,29 @@
 # dotfiles
 
-### Emacs
+vim, tmux and all the goodies
 
-Links:
-- [Sexy](http://emacs.sexy/)
-- [Basic emacs](http://www.braveclojure.com/basic-emacs/)
-- [Extending emacs](http://y.tsutsumi.io/emacs-from-scratch-part-1-extending-emacs-basics.html)
-- [Package managment](http://y.tsutsumi.io/emacs-from-scratch-part-2-package-management.html)
+## Sync dotfiles with a bare git repo
 
-Packages:
-- [helm](https://github.com/emacs-helm/helm) 
-- [helm-ag](https://github.com/syohex/emacs-helm-ag)
-- [helm-projectile](https://github.com/bbatsov/helm-projectile)
-- [ensime](https://github.com/ensime/ensime-emacs)
-- [magit](https://github.com/magit/magit)
+- https://www.atlassian.com/git/tutorials/dotfiles
 
-Notes:
-- Install helm directly from git to avoid wierd errors
-- Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) for searching with helm-ag
+Starting from scratch
 
-### Vim
+```sh
+git init --bare $HOME/.dotfiles
 
-Links:
-- [Sexy](https://www.vim.sexy/)
-- [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
-- [Cheat Sheet](http://michael.peopleofhonoronly.com/vim/)
+# configure alias
+alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-### And much more:
+dotfiles config --local status.showUntrackedFiles no
+```
 
-- Git
-- Bash
-- Zsh
-- Tmux
+Install to an existing system
+
+```sh
+
+# configure alias
+alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
+git clone --bare <git-repo-url> $HOME/.dotfiles
+```
+
