@@ -1,38 +1,17 @@
-# Ignore everything in the root
-/*
+.DS_Store
 
-!.gitignore
-!README
+# Editors
+.vscode
+.idea
 
-# Bash
-!.bash_profil
+# Java
+.java-version
 
-# Zsh
-!.zshenv
-!.zshrc
-!.oh-my-zsh-custom
+# Scala
+*.class
+*.tasty
+.metals
 
-# Vim
-!.vimrc
-!.vim/autoload/
-
-# Emacs
-*.el~
-*~
-!.emacs
-!.emacs.d
-.emacs.d/*
-!.emacs.d/custom/
-
-# Tig
-!.tigrc
-
-# Tmux
-!.tmux.conf
-
-# Homebrew dump
-!.homebrew
-
-# Folders
-!.scripts
-!.wiki
+# Python
+.venv
+__pycache__
