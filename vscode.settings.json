@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.enabled": false,
+    "workbench.activityBar.visible": false,
+}
