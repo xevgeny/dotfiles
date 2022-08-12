@@ -21,6 +21,11 @@ Install to an existing system
 # configure alias
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-git clone --bare <git-repo-url> $HOME/.dotfiles
+git clone --bare git@github.com:xevgeny/dotfiles.git $HOME/.dotfiles
+
+dotfiles config --local status.showUntrackedFiles no
+
+# resolve all conflicts during checkout
+dotfiles checkout
 ```
 
