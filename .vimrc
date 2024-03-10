@@ -1,9 +1,7 @@
 syntax enable
 
-set number relativenumber
-set nu rnu
-
 set wrap
+set number
 set autoindent
 set noswapfile
 
