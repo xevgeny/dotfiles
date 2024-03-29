@@ -1,5 +1,5 @@
 [user]
-	name = xevgney
+	name = xevgeny
 	email = e.tskhovrebov@pm.me
 [core]
-	editor = vim
+	editor = nvim
