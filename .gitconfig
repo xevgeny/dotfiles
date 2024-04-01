@@ -2,4 +2,4 @@
 	name = xevgeny
 	email = e.tskhovrebov@pm.me
 [core]
-	editor = nvim
+	editor = vim
