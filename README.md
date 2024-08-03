@@ -10,23 +10,23 @@ Starting from scratch
 git init --bare $HOME/.dotfiles
 
 # configure alias
-alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias dot='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-dotfiles config --local status.showUntrackedFiles no
+dot config --local status.showUntrackedFiles no
 ```
 
 Install to an existing system
 
 ```sh
 # configure alias
-alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias dot='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 git clone --bare git@github.com:xevgeny/dotfiles.git $HOME/.dotfiles
 
-dotfiles config --local status.showUntrackedFiles no
+dot config --local status.showUntrackedFiles no
 
 # resolve all conflicts during checkout
-dotfiles checkout
+dot checkout
 ```
 
 ## Minimal setup
